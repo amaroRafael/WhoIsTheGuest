@@ -1,0 +1,1050 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C47AF701C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47AF6F1C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift */; };
+		2C47AF721C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47AF711C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift */; };
+		B64C2F251C3EE99E0098B006 /* WhoIsTheGuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AAE1C3D8B7000ACE834 /* WhoIsTheGuestTests.swift */; };
+		B64C2F2C1C3EEBD90098B006 /* RAGuestInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */; };
+		B68D2AB21C3D8B7000ACE834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A6B1C3D8B7000ACE834 /* AppDelegate.swift */; };
+		B68D2AB31C3D8B7000ACE834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68D2A6C1C3D8B7000ACE834 /* Assets.xcassets */; };
+		B68D2AB41C3D8B7000ACE834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68D2A6D1C3D8B7000ACE834 /* LaunchScreen.storyboard */; };
+		B68D2AB51C3D8B7000ACE834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68D2A6F1C3D8B7000ACE834 /* Main.storyboard */; };
+		B68D2AB61C3D8B7000ACE834 /* RAGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A721C3D8B7000ACE834 /* RAGlobalConstants.swift */; };
+		B68D2AB91C3D8B7000ACE834 /* RAAddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A781C3D8B7000ACE834 /* RAAddGuestViewController.swift */; };
+		B68D2ABA1C3D8B7000ACE834 /* RABaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A7C1C3D8B7000ACE834 /* RABaseError.swift */; };
+		B68D2ABB1C3D8B7000ACE834 /* RAParameterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A7D1C3D8B7000ACE834 /* RAParameterError.swift */; };
+		B68D2ABC1C3D8B7000ACE834 /* RAListMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A801C3D8B7000ACE834 /* RAListMapper.swift */; };
+		B68D2ABD1C3D8B7000ACE834 /* RAMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A811C3D8B7000ACE834 /* RAMapper.swift */; };
+		B68D2ABE1C3D8B7000ACE834 /* RAGuestDataSourceDiskRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A881C3D8B7000ACE834 /* RAGuestDataSourceDiskRealm.swift */; };
+		B68D2ABF1C3D8B7000ACE834 /* RAGuestDataSourceDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A891C3D8B7000ACE834 /* RAGuestDataSourceDisk.swift */; };
+		B68D2AC01C3D8B7000ACE834 /* RAGuestDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A8A1C3D8B7000ACE834 /* RAGuestDataRepository.swift */; };
+		B68D2AC11C3D8B7000ACE834 /* RAAddGuestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A911C3D8B7000ACE834 /* RAAddGuestInteractor.swift */; };
+		B68D2AC21C3D8B7000ACE834 /* RAListGuestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A931C3D8B7000ACE834 /* RAListGuestInteractor.swift */; };
+		B68D2AC31C3D8B7000ACE834 /* RAGuest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A941C3D8B7000ACE834 /* RAGuest.swift */; };
+		B68D2AC41C3D8B7000ACE834 /* RAGuestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A951C3D8B7000ACE834 /* RAGuestRepository.swift */; };
+		B68D2AC51C3D8B7000ACE834 /* RARemoveGuestInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A971C3D8B7000ACE834 /* RARemoveGuestInteractor.swift */; };
+		B68D2AC61C3D8B7000ACE834 /* RAInteractorResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A991C3D8B7000ACE834 /* RAInteractorResultProtocol.swift */; };
+		B68D2AC71C3D8B7000ACE834 /* RAAddGuestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A9E1C3D8B7000ACE834 /* RAAddGuestPresenter.swift */; };
+		B68D2AC81C3D8B7000ACE834 /* RAAddGuestPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A9F1C3D8B7000ACE834 /* RAAddGuestPresenterProtocol.swift */; };
+		B68D2AC91C3D8B7000ACE834 /* RAAddGuestViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA01C3D8B7000ACE834 /* RAAddGuestViewProtocol.swift */; };
+		B68D2ACA1C3D8B7000ACE834 /* RAAddGuestWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA11C3D8B7000ACE834 /* RAAddGuestWireframe.swift */; };
+		B68D2ACB1C3D8B7000ACE834 /* RAListGuestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA31C3D8B7000ACE834 /* RAListGuestPresenter.swift */; };
+		B68D2ACC1C3D8B7000ACE834 /* RAListGuestPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA41C3D8B7000ACE834 /* RAListGuestPresenterProtocol.swift */; };
+		B68D2ACD1C3D8B7000ACE834 /* RAListGuestViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA51C3D8B7000ACE834 /* RAListGuestViewProtocol.swift */; };
+		B68D2ACE1C3D8B7000ACE834 /* RAListGuestWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA61C3D8B7000ACE834 /* RAListGuestWireframe.swift */; };
+		B68D2ACF1C3D8B7000ACE834 /* RABaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AA91C3D8B7000ACE834 /* RABaseWireframe.swift */; };
+		B68D2AD01C3D8B7000ACE834 /* RAErrorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AAA1C3D8B7000ACE834 /* RAErrorViewProtocol.swift */; };
+		B68D2AD11C3D8B7000ACE834 /* RALoadDataViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AAB1C3D8B7000ACE834 /* RALoadDataViewProtocol.swift */; };
+		B68D2AD21C3D8B7000ACE834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B68D2AAD1C3D8B7000ACE834 /* Info.plist */; };
+		B68D2AD41C3D8B7000ACE834 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B68D2AB01C3D8B7000ACE834 /* Info.plist */; };
+		B68D2AD91C3D8C2500ACE834 /* RAListGuestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AD81C3D8C2500ACE834 /* RAListGuestTableViewController.swift */; };
+		B68D2ADB1C3DA7EC00ACE834 /* RAGuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2ADA1C3DA7EC00ACE834 /* RAGuestModel.swift */; };
+		B68D2ADD1C3E9E3E00ACE834 /* RAGuestModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2ADC1C3E9E3E00ACE834 /* RAGuestModelMapper.swift */; };
+		B68D2ADF1C3EBD6500ACE834 /* RAGuestDiskRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2ADE1C3EBD6500ACE834 /* RAGuestDiskRealm.swift */; };
+		B68D2AE11C3EBDF300ACE834 /* RAGuestDiskRealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AE01C3EBDF300ACE834 /* RAGuestDiskRealmMapper.swift */; };
+		B6BBE7761C3D54DF00D261A2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BBE7741C3D54DF00D261A2 /* Realm.framework */; };
+		B6BBE7771C3D54DF00D261A2 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6BBE7741C3D54DF00D261A2 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6BBE7781C3D54DF00D261A2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6BBE7751C3D54DF00D261A2 /* RealmSwift.framework */; };
+		B6BBE7791C3D54DF00D261A2 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6BBE7751C3D54DF00D261A2 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6BBE7251C3D465700D261A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BBE7081C3D465700D261A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BBE70F1C3D465700D261A2;
+			remoteInfo = WhoIsTheGuest;
+		};
+		B6BBE7301C3D465700D261A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6BBE7081C3D465700D261A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6BBE70F1C3D465700D261A2;
+			remoteInfo = WhoIsTheGuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6BBE77A1C3D54DF00D261A2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6BBE7791C3D54DF00D261A2 /* RealmSwift.framework in Embed Frameworks */,
+				B6BBE7771C3D54DF00D261A2 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2C47AF6F1C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestDataSourceDiskMockRealm.swift; path = Data/Features/Mock/Guest/DataSources/Disk/Realm/RAGuestDataSourceDiskMockRealm.swift; sourceTree = "<group>"; };
+		2C47AF711C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestDataRepositoryMock.swift; path = Data/Features/Mock/Guest/RAGuestDataRepositoryMock.swift; sourceTree = "<group>"; };
+		B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestInteractorTest.swift; path = Domain/Features/RAGuestInteractorTest.swift; sourceTree = "<group>"; };
+		B68D2A6B1C3D8B7000ACE834 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B68D2A6C1C3D8B7000ACE834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B68D2A6E1C3D8B7000ACE834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B68D2A701C3D8B7000ACE834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B68D2A721C3D8B7000ACE834 /* RAGlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGlobalConstants.swift; sourceTree = "<group>"; };
+		B68D2A741C3D8B7000ACE834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D2A781C3D8B7000ACE834 /* RAAddGuestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestViewController.swift; sourceTree = "<group>"; };
+		B68D2A7C1C3D8B7000ACE834 /* RABaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABaseError.swift; sourceTree = "<group>"; };
+		B68D2A7D1C3D8B7000ACE834 /* RAParameterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAParameterError.swift; sourceTree = "<group>"; };
+		B68D2A801C3D8B7000ACE834 /* RAListMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListMapper.swift; sourceTree = "<group>"; };
+		B68D2A811C3D8B7000ACE834 /* RAMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAMapper.swift; sourceTree = "<group>"; };
+		B68D2A881C3D8B7000ACE834 /* RAGuestDataSourceDiskRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestDataSourceDiskRealm.swift; sourceTree = "<group>"; };
+		B68D2A891C3D8B7000ACE834 /* RAGuestDataSourceDisk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestDataSourceDisk.swift; sourceTree = "<group>"; };
+		B68D2A8A1C3D8B7000ACE834 /* RAGuestDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestDataRepository.swift; sourceTree = "<group>"; };
+		B68D2A911C3D8B7000ACE834 /* RAAddGuestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestInteractor.swift; sourceTree = "<group>"; };
+		B68D2A931C3D8B7000ACE834 /* RAListGuestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestInteractor.swift; sourceTree = "<group>"; };
+		B68D2A941C3D8B7000ACE834 /* RAGuest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuest.swift; sourceTree = "<group>"; };
+		B68D2A951C3D8B7000ACE834 /* RAGuestRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestRepository.swift; sourceTree = "<group>"; };
+		B68D2A971C3D8B7000ACE834 /* RARemoveGuestInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RARemoveGuestInteractor.swift; sourceTree = "<group>"; };
+		B68D2A991C3D8B7000ACE834 /* RAInteractorResultProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAInteractorResultProtocol.swift; sourceTree = "<group>"; };
+		B68D2A9E1C3D8B7000ACE834 /* RAAddGuestPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestPresenter.swift; sourceTree = "<group>"; };
+		B68D2A9F1C3D8B7000ACE834 /* RAAddGuestPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestPresenterProtocol.swift; sourceTree = "<group>"; };
+		B68D2AA01C3D8B7000ACE834 /* RAAddGuestViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestViewProtocol.swift; sourceTree = "<group>"; };
+		B68D2AA11C3D8B7000ACE834 /* RAAddGuestWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestWireframe.swift; sourceTree = "<group>"; };
+		B68D2AA31C3D8B7000ACE834 /* RAListGuestPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestPresenter.swift; sourceTree = "<group>"; };
+		B68D2AA41C3D8B7000ACE834 /* RAListGuestPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestPresenterProtocol.swift; sourceTree = "<group>"; };
+		B68D2AA51C3D8B7000ACE834 /* RAListGuestViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestViewProtocol.swift; sourceTree = "<group>"; };
+		B68D2AA61C3D8B7000ACE834 /* RAListGuestWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestWireframe.swift; sourceTree = "<group>"; };
+		B68D2AA91C3D8B7000ACE834 /* RABaseWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RABaseWireframe.swift; sourceTree = "<group>"; };
+		B68D2AAA1C3D8B7000ACE834 /* RAErrorViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAErrorViewProtocol.swift; sourceTree = "<group>"; };
+		B68D2AAB1C3D8B7000ACE834 /* RALoadDataViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RALoadDataViewProtocol.swift; sourceTree = "<group>"; };
+		B68D2AAD1C3D8B7000ACE834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D2AAE1C3D8B7000ACE834 /* WhoIsTheGuestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoIsTheGuestTests.swift; sourceTree = "<group>"; };
+		B68D2AB01C3D8B7000ACE834 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68D2AB11C3D8B7000ACE834 /* WhoIsTheGuestUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoIsTheGuestUITests.swift; sourceTree = "<group>"; };
+		B68D2AD81C3D8C2500ACE834 /* RAListGuestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestTableViewController.swift; sourceTree = "<group>"; };
+		B68D2ADA1C3DA7EC00ACE834 /* RAGuestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestModel.swift; sourceTree = "<group>"; };
+		B68D2ADC1C3E9E3E00ACE834 /* RAGuestModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestModelMapper.swift; sourceTree = "<group>"; };
+		B68D2ADE1C3EBD6500ACE834 /* RAGuestDiskRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestDiskRealm.swift; sourceTree = "<group>"; };
+		B68D2AE01C3EBDF300ACE834 /* RAGuestDiskRealmMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAGuestDiskRealmMapper.swift; sourceTree = "<group>"; };
+		B6BBE7101C3D465700D261A2 /* WhoIsTheGuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhoIsTheGuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BBE7241C3D465700D261A2 /* WhoIsTheGuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhoIsTheGuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BBE72F1C3D465700D261A2 /* WhoIsTheGuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhoIsTheGuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6BBE7741C3D54DF00D261A2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		B6BBE7751C3D54DF00D261A2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6BBE70D1C3D465700D261A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6BBE7781C3D54DF00D261A2 /* RealmSwift.framework in Frameworks */,
+				B6BBE7761C3D54DF00D261A2 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE7211C3D465700D261A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE72C1C3D465700D261A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C47AF681C3F0C22009F6BCD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF691C3F0C2D009F6BCD /* Features */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		2C47AF691C3F0C2D009F6BCD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6A1C3F0C40009F6BCD /* Mock */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		2C47AF6A1C3F0C40009F6BCD /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6B1C3F0C4A009F6BCD /* Guest */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
+		2C47AF6B1C3F0C4A009F6BCD /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6C1C3F0C51009F6BCD /* DataSources */,
+				2C47AF711C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift */,
+			);
+			name = Guest;
+			sourceTree = "<group>";
+		};
+		2C47AF6C1C3F0C51009F6BCD /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6D1C3F0C62009F6BCD /* Disk */,
+			);
+			name = DataSources;
+			sourceTree = "<group>";
+		};
+		2C47AF6D1C3F0C62009F6BCD /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6E1C3F0C68009F6BCD /* Realm */,
+			);
+			name = Disk;
+			sourceTree = "<group>";
+		};
+		2C47AF6E1C3F0C68009F6BCD /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF6F1C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift */,
+			);
+			name = Realm;
+			sourceTree = "<group>";
+		};
+		B64C2F281C3EEB4A0098B006 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B64C2F291C3EEB510098B006 /* Features */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		B64C2F291C3EEB510098B006 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */,
+			);
+			name = Features;
+			sourceTree = "<group>";
+		};
+		B68D2A691C3D8B7000ACE834 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A6A1C3D8B7000ACE834 /* App */,
+				B68D2A7A1C3D8B7000ACE834 /* Core */,
+				B68D2A821C3D8B7000ACE834 /* Data */,
+				B68D2A8D1C3D8B7000ACE834 /* Domain */,
+				B68D2A9A1C3D8B7000ACE834 /* Presentation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B68D2A6A1C3D8B7000ACE834 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A751C3D8B7000ACE834 /* ViewControllers */,
+				B68D2A711C3D8B7000ACE834 /* Helpers */,
+				B68D2AD61C3D8B9E00ACE834 /* UI */,
+				B68D2AD71C3D8BB200ACE834 /* Supporting Files */,
+				B68D2A6B1C3D8B7000ACE834 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B68D2A711C3D8B7000ACE834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A721C3D8B7000ACE834 /* RAGlobalConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B68D2A751C3D8B7000ACE834 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A761C3D8B7000ACE834 /* Guest */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B68D2A761C3D8B7000ACE834 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A771C3D8B7000ACE834 /* Add */,
+				B68D2A791C3D8B7000ACE834 /* List */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		B68D2A771C3D8B7000ACE834 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A781C3D8B7000ACE834 /* RAAddGuestViewController.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		B68D2A791C3D8B7000ACE834 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2AD81C3D8C2500ACE834 /* RAListGuestTableViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B68D2A7A1C3D8B7000ACE834 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A7B1C3D8B7000ACE834 /* Errors */,
+				B68D2A7E1C3D8B7000ACE834 /* Helpers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B68D2A7B1C3D8B7000ACE834 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A7C1C3D8B7000ACE834 /* RABaseError.swift */,
+				B68D2A7D1C3D8B7000ACE834 /* RAParameterError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		B68D2A7E1C3D8B7000ACE834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A7F1C3D8B7000ACE834 /* Mappers */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B68D2A7F1C3D8B7000ACE834 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A801C3D8B7000ACE834 /* RAListMapper.swift */,
+				B68D2A811C3D8B7000ACE834 /* RAMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		B68D2A821C3D8B7000ACE834 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A831C3D8B7000ACE834 /* Features */,
+				B68D2A8B1C3D8B7000ACE834 /* Helpers */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B68D2A831C3D8B7000ACE834 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A841C3D8B7000ACE834 /* Guest */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B68D2A841C3D8B7000ACE834 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A851C3D8B7000ACE834 /* DataSources */,
+				B68D2A8A1C3D8B7000ACE834 /* RAGuestDataRepository.swift */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		B68D2A851C3D8B7000ACE834 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A861C3D8B7000ACE834 /* Disk */,
+				B68D2A891C3D8B7000ACE834 /* RAGuestDataSourceDisk.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		B68D2A861C3D8B7000ACE834 /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A871C3D8B7000ACE834 /* Realm */,
+			);
+			path = Disk;
+			sourceTree = "<group>";
+		};
+		B68D2A871C3D8B7000ACE834 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A881C3D8B7000ACE834 /* RAGuestDataSourceDiskRealm.swift */,
+				B68D2ADE1C3EBD6500ACE834 /* RAGuestDiskRealm.swift */,
+				B68D2AE01C3EBDF300ACE834 /* RAGuestDiskRealmMapper.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		B68D2A8B1C3D8B7000ACE834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A8C1C3D8B7000ACE834 /* Client */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B68D2A8C1C3D8B7000ACE834 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		B68D2A8D1C3D8B7000ACE834 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A8E1C3D8B7000ACE834 /* Features */,
+				B68D2A981C3D8B7000ACE834 /* Helpers */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B68D2A8E1C3D8B7000ACE834 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A8F1C3D8B7000ACE834 /* Guest */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B68D2A8F1C3D8B7000ACE834 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A901C3D8B7000ACE834 /* Add */,
+				B68D2A921C3D8B7000ACE834 /* List */,
+				B68D2A961C3D8B7000ACE834 /* Remove */,
+				B68D2A941C3D8B7000ACE834 /* RAGuest.swift */,
+				B68D2A951C3D8B7000ACE834 /* RAGuestRepository.swift */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		B68D2A901C3D8B7000ACE834 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A911C3D8B7000ACE834 /* RAAddGuestInteractor.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		B68D2A921C3D8B7000ACE834 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A931C3D8B7000ACE834 /* RAListGuestInteractor.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B68D2A961C3D8B7000ACE834 /* Remove */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A971C3D8B7000ACE834 /* RARemoveGuestInteractor.swift */,
+			);
+			path = Remove;
+			sourceTree = "<group>";
+		};
+		B68D2A981C3D8B7000ACE834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A991C3D8B7000ACE834 /* RAInteractorResultProtocol.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B68D2A9A1C3D8B7000ACE834 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A9B1C3D8B7000ACE834 /* Features */,
+				B68D2AA71C3D8B7000ACE834 /* Helpers */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B68D2A9B1C3D8B7000ACE834 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A9C1C3D8B7000ACE834 /* Guest */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B68D2A9C1C3D8B7000ACE834 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A9D1C3D8B7000ACE834 /* Add */,
+				B68D2AA21C3D8B7000ACE834 /* List */,
+				B68D2ADA1C3DA7EC00ACE834 /* RAGuestModel.swift */,
+				B68D2ADC1C3E9E3E00ACE834 /* RAGuestModelMapper.swift */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		B68D2A9D1C3D8B7000ACE834 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A9E1C3D8B7000ACE834 /* RAAddGuestPresenter.swift */,
+				B68D2A9F1C3D8B7000ACE834 /* RAAddGuestPresenterProtocol.swift */,
+				B68D2AA01C3D8B7000ACE834 /* RAAddGuestViewProtocol.swift */,
+				B68D2AA11C3D8B7000ACE834 /* RAAddGuestWireframe.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		B68D2AA21C3D8B7000ACE834 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2AA31C3D8B7000ACE834 /* RAListGuestPresenter.swift */,
+				B68D2AA41C3D8B7000ACE834 /* RAListGuestPresenterProtocol.swift */,
+				B68D2AA51C3D8B7000ACE834 /* RAListGuestViewProtocol.swift */,
+				B68D2AA61C3D8B7000ACE834 /* RAListGuestWireframe.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B68D2AA71C3D8B7000ACE834 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2AA81C3D8B7000ACE834 /* Views */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B68D2AA81C3D8B7000ACE834 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2AA91C3D8B7000ACE834 /* RABaseWireframe.swift */,
+				B68D2AAA1C3D8B7000ACE834 /* RAErrorViewProtocol.swift */,
+				B68D2AAB1C3D8B7000ACE834 /* RALoadDataViewProtocol.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B68D2AAC1C3D8B7000ACE834 /* SourceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C47AF681C3F0C22009F6BCD /* Data */,
+				B64C2F281C3EEB4A0098B006 /* Domain */,
+				B68D2AAD1C3D8B7000ACE834 /* Info.plist */,
+				B68D2AAE1C3D8B7000ACE834 /* WhoIsTheGuestTests.swift */,
+			);
+			path = SourceTests;
+			sourceTree = "<group>";
+		};
+		B68D2AAF1C3D8B7000ACE834 /* SourceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2AB01C3D8B7000ACE834 /* Info.plist */,
+				B68D2AB11C3D8B7000ACE834 /* WhoIsTheGuestUITests.swift */,
+			);
+			path = SourceUITests;
+			sourceTree = "<group>";
+		};
+		B68D2AD61C3D8B9E00ACE834 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A6C1C3D8B7000ACE834 /* Assets.xcassets */,
+				B68D2A6D1C3D8B7000ACE834 /* LaunchScreen.storyboard */,
+				B68D2A6F1C3D8B7000ACE834 /* Main.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		B68D2AD71C3D8BB200ACE834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B68D2A741C3D8B7000ACE834 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6BBE7071C3D465700D261A2 = {
+			isa = PBXGroup;
+			children = (
+				B68D2A691C3D8B7000ACE834 /* Source */,
+				B68D2AAC1C3D8B7000ACE834 /* SourceTests */,
+				B68D2AAF1C3D8B7000ACE834 /* SourceUITests */,
+				B6BBE77B1C3D54E700D261A2 /* Frameworks */,
+				B6BBE7111C3D465700D261A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6BBE7111C3D465700D261A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBE7101C3D465700D261A2 /* WhoIsTheGuest.app */,
+				B6BBE7241C3D465700D261A2 /* WhoIsTheGuestTests.xctest */,
+				B6BBE72F1C3D465700D261A2 /* WhoIsTheGuestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BBE77B1C3D54E700D261A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6BBE7741C3D54DF00D261A2 /* Realm.framework */,
+				B6BBE7751C3D54DF00D261A2 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6BBE70F1C3D465700D261A2 /* WhoIsTheGuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BBE7381C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuest" */;
+			buildPhases = (
+				B6BBE70C1C3D465700D261A2 /* Sources */,
+				B6BBE70D1C3D465700D261A2 /* Frameworks */,
+				B6BBE70E1C3D465700D261A2 /* Resources */,
+				B6BBE7731C3D532D00D261A2 /* ShellScript */,
+				B6BBE77A1C3D54DF00D261A2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhoIsTheGuest;
+			productName = WhoIsTheGuest;
+			productReference = B6BBE7101C3D465700D261A2 /* WhoIsTheGuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6BBE7231C3D465700D261A2 /* WhoIsTheGuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BBE73B1C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuestTests" */;
+			buildPhases = (
+				B6BBE7201C3D465700D261A2 /* Sources */,
+				B6BBE7211C3D465700D261A2 /* Frameworks */,
+				B6BBE7221C3D465700D261A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BBE7261C3D465700D261A2 /* PBXTargetDependency */,
+			);
+			name = WhoIsTheGuestTests;
+			productName = WhoIsTheGuestTests;
+			productReference = B6BBE7241C3D465700D261A2 /* WhoIsTheGuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6BBE72E1C3D465700D261A2 /* WhoIsTheGuestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6BBE73E1C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuestUITests" */;
+			buildPhases = (
+				B6BBE72B1C3D465700D261A2 /* Sources */,
+				B6BBE72C1C3D465700D261A2 /* Frameworks */,
+				B6BBE72D1C3D465700D261A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6BBE7311C3D465700D261A2 /* PBXTargetDependency */,
+			);
+			name = WhoIsTheGuestUITests;
+			productName = WhoIsTheGuestUITests;
+			productReference = B6BBE72F1C3D465700D261A2 /* WhoIsTheGuestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6BBE7081C3D465700D261A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rafael Luis Neves Amaro";
+				TargetAttributes = {
+					B6BBE70F1C3D465700D261A2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B6BBE7231C3D465700D261A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B6BBE70F1C3D465700D261A2;
+					};
+					B6BBE72E1C3D465700D261A2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B6BBE70F1C3D465700D261A2;
+					};
+				};
+			};
+			buildConfigurationList = B6BBE70B1C3D465700D261A2 /* Build configuration list for PBXProject "WhoIsTheGuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6BBE7071C3D465700D261A2;
+			productRefGroup = B6BBE7111C3D465700D261A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6BBE70F1C3D465700D261A2 /* WhoIsTheGuest */,
+				B6BBE7231C3D465700D261A2 /* WhoIsTheGuestTests */,
+				B6BBE72E1C3D465700D261A2 /* WhoIsTheGuestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6BBE70E1C3D465700D261A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68D2AB51C3D8B7000ACE834 /* Main.storyboard in Resources */,
+				B68D2AD41C3D8B7000ACE834 /* Info.plist in Resources */,
+				B68D2AB31C3D8B7000ACE834 /* Assets.xcassets in Resources */,
+				B68D2AD21C3D8B7000ACE834 /* Info.plist in Resources */,
+				B68D2AB41C3D8B7000ACE834 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE7221C3D465700D261A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE72D1C3D465700D261A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6BBE7731C3D532D00D261A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6BBE70C1C3D465700D261A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B68D2AC11C3D8B7000ACE834 /* RAAddGuestInteractor.swift in Sources */,
+				B68D2AB21C3D8B7000ACE834 /* AppDelegate.swift in Sources */,
+				B68D2ABF1C3D8B7000ACE834 /* RAGuestDataSourceDisk.swift in Sources */,
+				B68D2ABD1C3D8B7000ACE834 /* RAMapper.swift in Sources */,
+				B68D2ACB1C3D8B7000ACE834 /* RAListGuestPresenter.swift in Sources */,
+				B68D2AC21C3D8B7000ACE834 /* RAListGuestInteractor.swift in Sources */,
+				B68D2ACA1C3D8B7000ACE834 /* RAAddGuestWireframe.swift in Sources */,
+				B68D2ABB1C3D8B7000ACE834 /* RAParameterError.swift in Sources */,
+				B68D2AB61C3D8B7000ACE834 /* RAGlobalConstants.swift in Sources */,
+				B68D2ABC1C3D8B7000ACE834 /* RAListMapper.swift in Sources */,
+				B68D2AD91C3D8C2500ACE834 /* RAListGuestTableViewController.swift in Sources */,
+				B68D2ADB1C3DA7EC00ACE834 /* RAGuestModel.swift in Sources */,
+				B68D2ABE1C3D8B7000ACE834 /* RAGuestDataSourceDiskRealm.swift in Sources */,
+				B68D2AC01C3D8B7000ACE834 /* RAGuestDataRepository.swift in Sources */,
+				B68D2ABA1C3D8B7000ACE834 /* RABaseError.swift in Sources */,
+				B68D2AD11C3D8B7000ACE834 /* RALoadDataViewProtocol.swift in Sources */,
+				B68D2AC31C3D8B7000ACE834 /* RAGuest.swift in Sources */,
+				B68D2AC91C3D8B7000ACE834 /* RAAddGuestViewProtocol.swift in Sources */,
+				B68D2AC81C3D8B7000ACE834 /* RAAddGuestPresenterProtocol.swift in Sources */,
+				B68D2AE11C3EBDF300ACE834 /* RAGuestDiskRealmMapper.swift in Sources */,
+				B68D2ACF1C3D8B7000ACE834 /* RABaseWireframe.swift in Sources */,
+				B68D2AC71C3D8B7000ACE834 /* RAAddGuestPresenter.swift in Sources */,
+				B68D2AC61C3D8B7000ACE834 /* RAInteractorResultProtocol.swift in Sources */,
+				B68D2ADD1C3E9E3E00ACE834 /* RAGuestModelMapper.swift in Sources */,
+				B68D2AD01C3D8B7000ACE834 /* RAErrorViewProtocol.swift in Sources */,
+				B68D2ACE1C3D8B7000ACE834 /* RAListGuestWireframe.swift in Sources */,
+				B68D2AC51C3D8B7000ACE834 /* RARemoveGuestInteractor.swift in Sources */,
+				B68D2AC41C3D8B7000ACE834 /* RAGuestRepository.swift in Sources */,
+				B68D2ACD1C3D8B7000ACE834 /* RAListGuestViewProtocol.swift in Sources */,
+				B68D2ACC1C3D8B7000ACE834 /* RAListGuestPresenterProtocol.swift in Sources */,
+				B68D2AB91C3D8B7000ACE834 /* RAAddGuestViewController.swift in Sources */,
+				B68D2ADF1C3EBD6500ACE834 /* RAGuestDiskRealm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE7201C3D465700D261A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64C2F2C1C3EEBD90098B006 /* RAGuestInteractorTest.swift in Sources */,
+				2C47AF721C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift in Sources */,
+				B64C2F251C3EE99E0098B006 /* WhoIsTheGuestTests.swift in Sources */,
+				2C47AF701C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6BBE72B1C3D465700D261A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6BBE7261C3D465700D261A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BBE70F1C3D465700D261A2 /* WhoIsTheGuest */;
+			targetProxy = B6BBE7251C3D465700D261A2 /* PBXContainerItemProxy */;
+		};
+		B6BBE7311C3D465700D261A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6BBE70F1C3D465700D261A2 /* WhoIsTheGuest */;
+			targetProxy = B6BBE7301C3D465700D261A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B68D2A6D1C3D8B7000ACE834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68D2A6E1C3D8B7000ACE834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B68D2A6F1C3D8B7000ACE834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B68D2A701C3D8B7000ACE834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6BBE7361C3D465800D261A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6BBE7371C3D465800D261A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6BBE7391C3D465800D261A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Source/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6BBE73A1C3D465800D261A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Source/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B6BBE73C1C3D465800D261A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = SourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoIsTheGuest.app/WhoIsTheGuest";
+			};
+			name = Debug;
+		};
+		B6BBE73D1C3D465800D261A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = mh_bundle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhoIsTheGuest.app/WhoIsTheGuest";
+			};
+			name = Release;
+		};
+		B6BBE73F1C3D465800D261A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhoIsTheGuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B6BBE7401C3D465800D261A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhoIsTheGuest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6BBE70B1C3D465700D261A2 /* Build configuration list for PBXProject "WhoIsTheGuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BBE7361C3D465800D261A2 /* Debug */,
+				B6BBE7371C3D465800D261A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BBE7381C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BBE7391C3D465800D261A2 /* Debug */,
+				B6BBE73A1C3D465800D261A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BBE73B1C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BBE73C1C3D465800D261A2 /* Debug */,
+				B6BBE73D1C3D465800D261A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BBE73E1C3D465800D261A2 /* Build configuration list for PBXNativeTarget "WhoIsTheGuestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6BBE73F1C3D465800D261A2 /* Debug */,
+				B6BBE7401C3D465800D261A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6BBE7081C3D465700D261A2 /* Project object */;
+}

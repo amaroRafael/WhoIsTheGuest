@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "RAListGuestTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:RAListGuestTableViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RAGuestDataSourceDiskRealm.removeGuest(RAGuest) -&gt; Bool:RAGuestDataSourceDiskRealm.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RAListGuestTableViewController.tableView(UITableView, didSelectRowAtIndexPath : NSIndexPath) -&gt; ():RAListGuestTableViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
