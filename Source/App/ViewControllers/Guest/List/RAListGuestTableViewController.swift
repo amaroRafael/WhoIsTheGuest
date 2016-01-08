@@ -21,6 +21,7 @@ class RAListGuestTableViewController: UIViewController, UITableViewDataSource, U
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addGuestClick:")
         self.activityIndicator!.center = self.view.center
     }
     
@@ -34,7 +35,7 @@ class RAListGuestTableViewController: UIViewController, UITableViewDataSource, U
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func addGuestClick(sender: AnyObject) {
+    func addGuestClick(sender: AnyObject) {
         self.presenter!.navigateToAddGuest(RAGlobalConstants.Storyboard.Main, viewControllerIdentifier: RAGlobalConstants.Storyboard.View.Guest.Add)
     }
     

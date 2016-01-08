@@ -31,8 +31,8 @@ class RAListGuestPresenter: RAListGuestPresenterProtocol {
         
         do {
             try self.removeInteractor.result { (resultObject) -> () in
-                self.view.reloadGuestList()
                 self.view.hideLoading()
+                self.view.reloadGuestList()
             }
         } catch {
             self.view.hideLoading()
@@ -45,8 +45,8 @@ class RAListGuestPresenter: RAListGuestPresenterProtocol {
       
         do {
             try self.listInteractor.result { (resultObject) -> () in
-                self.view.receiveGuest(RAListMapper<RAGuestModelMapper>.modelToData(resultObject))
                 self.view.hideLoading()
+                self.view.receiveGuest(RAListMapper<RAGuestModelMapper>.modelToData(resultObject))
             }
         } catch {
             self.view.hideLoading()

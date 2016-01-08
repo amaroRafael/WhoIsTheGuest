@@ -9,8 +9,14 @@
 /* Begin PBXBuildFile section */
 		2C47AF701C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47AF6F1C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift */; };
 		2C47AF721C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C47AF711C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift */; };
-		B64C2F251C3EE99E0098B006 /* WhoIsTheGuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AAE1C3D8B7000ACE834 /* WhoIsTheGuestTests.swift */; };
+		2C4A9C4E1C4048C4003D4CC2 /* RAListGuestViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A9C4D1C4048C4003D4CC2 /* RAListGuestViewMock.swift */; };
 		B64C2F2C1C3EEBD90098B006 /* RAGuestInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */; };
+		B65509B01C4018FE00A99C6E /* RAAddGuestPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65509AB1C4018FE00A99C6E /* RAAddGuestPresenterMock.swift */; };
+		B65509B11C4018FE00A99C6E /* RAAddGuestWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65509AC1C4018FE00A99C6E /* RAAddGuestWireframeMock.swift */; };
+		B65509B21C4018FE00A99C6E /* RAListGuestPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65509AE1C4018FE00A99C6E /* RAListGuestPresenterMock.swift */; };
+		B65509B31C4018FE00A99C6E /* RAListGuestWireframeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65509AF1C4018FE00A99C6E /* RAListGuestWireframeMock.swift */; };
+		B65509B61C40193700A99C6E /* RAGuestPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65509B51C40193700A99C6E /* RAGuestPresenterTest.swift */; };
+		B65509B71C4026AF00A99C6E /* WhoIsTheGuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2AB11C3D8B7000ACE834 /* WhoIsTheGuestUITests.swift */; };
 		B68D2AB21C3D8B7000ACE834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D2A6B1C3D8B7000ACE834 /* AppDelegate.swift */; };
 		B68D2AB31C3D8B7000ACE834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68D2A6C1C3D8B7000ACE834 /* Assets.xcassets */; };
 		B68D2AB41C3D8B7000ACE834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68D2A6D1C3D8B7000ACE834 /* LaunchScreen.storyboard */; };
@@ -89,7 +95,13 @@
 /* Begin PBXFileReference section */
 		2C47AF6F1C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestDataSourceDiskMockRealm.swift; path = Data/Features/Mock/Guest/DataSources/Disk/Realm/RAGuestDataSourceDiskMockRealm.swift; sourceTree = "<group>"; };
 		2C47AF711C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestDataRepositoryMock.swift; path = Data/Features/Mock/Guest/RAGuestDataRepositoryMock.swift; sourceTree = "<group>"; };
+		2C4A9C4D1C4048C4003D4CC2 /* RAListGuestViewMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAListGuestViewMock.swift; path = ViewControllers/Mock/RAListGuestViewMock.swift; sourceTree = "<group>"; };
 		B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestInteractorTest.swift; path = Domain/Features/RAGuestInteractorTest.swift; sourceTree = "<group>"; };
+		B65509AB1C4018FE00A99C6E /* RAAddGuestPresenterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestPresenterMock.swift; sourceTree = "<group>"; };
+		B65509AC1C4018FE00A99C6E /* RAAddGuestWireframeMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAddGuestWireframeMock.swift; sourceTree = "<group>"; };
+		B65509AE1C4018FE00A99C6E /* RAListGuestPresenterMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestPresenterMock.swift; sourceTree = "<group>"; };
+		B65509AF1C4018FE00A99C6E /* RAListGuestWireframeMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAListGuestWireframeMock.swift; sourceTree = "<group>"; };
+		B65509B51C40193700A99C6E /* RAGuestPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAGuestPresenterTest.swift; path = Guest/RAGuestPresenterTest.swift; sourceTree = "<group>"; };
 		B68D2A6B1C3D8B7000ACE834 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B68D2A6C1C3D8B7000ACE834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68D2A6E1C3D8B7000ACE834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -221,6 +233,30 @@
 			name = Realm;
 			sourceTree = "<group>";
 		};
+		2C4A9C4B1C404884003D4CC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A9C4C1C40488F003D4CC2 /* Mock */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2C4A9C4C1C40488F003D4CC2 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A9C4F1C4050E0003D4CC2 /* Guest */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
+		2C4A9C4F1C4050E0003D4CC2 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A9C4D1C4048C4003D4CC2 /* RAListGuestViewMock.swift */,
+			);
+			name = Guest;
+			sourceTree = "<group>";
+		};
 		B64C2F281C3EEB4A0098B006 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +271,66 @@
 				B64C2F2B1C3EEBD90098B006 /* RAGuestInteractorTest.swift */,
 			);
 			name = Features;
+			sourceTree = "<group>";
+		};
+		B65509A61C4018FE00A99C6E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B65509A71C4018FE00A99C6E /* Features */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B65509A71C4018FE00A99C6E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B65509B41C40190A00A99C6E /* Guest */,
+				B65509A81C4018FE00A99C6E /* Mock */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B65509A81C4018FE00A99C6E /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				B65509A91C4018FE00A99C6E /* Guest */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		B65509A91C4018FE00A99C6E /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B65509AA1C4018FE00A99C6E /* Add */,
+				B65509AD1C4018FE00A99C6E /* List */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
+		B65509AA1C4018FE00A99C6E /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B65509AB1C4018FE00A99C6E /* RAAddGuestPresenterMock.swift */,
+				B65509AC1C4018FE00A99C6E /* RAAddGuestWireframeMock.swift */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		B65509AD1C4018FE00A99C6E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B65509AE1C4018FE00A99C6E /* RAListGuestPresenterMock.swift */,
+				B65509AF1C4018FE00A99C6E /* RAListGuestWireframeMock.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		B65509B41C40190A00A99C6E /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				B65509B51C40193700A99C6E /* RAGuestPresenterTest.swift */,
+			);
+			name = Guest;
 			sourceTree = "<group>";
 		};
 		B68D2A691C3D8B7000ACE834 /* Source */ = {
@@ -539,6 +635,8 @@
 			children = (
 				2C47AF681C3F0C22009F6BCD /* Data */,
 				B64C2F281C3EEB4A0098B006 /* Domain */,
+				B65509A61C4018FE00A99C6E /* Presentation */,
+				2C4A9C4B1C404884003D4CC2 /* ViewControllers */,
 				B68D2AAD1C3D8B7000ACE834 /* Info.plist */,
 				B68D2AAE1C3D8B7000ACE834 /* WhoIsTheGuestTests.swift */,
 			);
@@ -794,10 +892,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65509B61C40193700A99C6E /* RAGuestPresenterTest.swift in Sources */,
+				2C4A9C4E1C4048C4003D4CC2 /* RAListGuestViewMock.swift in Sources */,
 				B64C2F2C1C3EEBD90098B006 /* RAGuestInteractorTest.swift in Sources */,
 				2C47AF721C3F0EE5009F6BCD /* RAGuestDataRepositoryMock.swift in Sources */,
-				B64C2F251C3EE99E0098B006 /* WhoIsTheGuestTests.swift in Sources */,
+				B65509B21C4018FE00A99C6E /* RAListGuestPresenterMock.swift in Sources */,
+				B65509B01C4018FE00A99C6E /* RAAddGuestPresenterMock.swift in Sources */,
+				B65509B11C4018FE00A99C6E /* RAAddGuestWireframeMock.swift in Sources */,
 				2C47AF701C3F0CC3009F6BCD /* RAGuestDataSourceDiskMockRealm.swift in Sources */,
+				B65509B31C4018FE00A99C6E /* RAListGuestWireframeMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +908,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65509B71C4026AF00A99C6E /* WhoIsTheGuestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,6 +1032,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -943,6 +1048,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -984,10 +1090,12 @@
 		B6BBE73F1C3D465800D261A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SourceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_TARGET_NAME = WhoIsTheGuest;
 				USES_XCTRUNNER = YES;
 			};
@@ -996,6 +1104,7 @@
 		B6BBE7401C3D465800D261A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SourceUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelamaro.WhoIsTheGuestUITests;

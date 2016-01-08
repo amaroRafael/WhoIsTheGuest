@@ -28,9 +28,37 @@ class WhoIsTheGuestUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testApp() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCUIDevice.sharedDevice().orientation = .Portrait
+        
+        let app = XCUIApplication()
+        app.navigationBars["Guest List"].buttons["Add"].tap()
+        
+        let nomeTextField = app.textFields["Name"]
+        nomeTextField.tap()
+        nomeTextField.typeText("Rafael Amaro")
+        
+        let emailTextField = app.textFields["Email"]
+        emailTextField.tap()
+        emailTextField.typeText("ramaro@mail.com")
+        
+        let phoneTextField = app.textFields["Phone"]
+        phoneTextField.tap()
+        
+        let shiftKey = app.keys["Shift"]
+        shiftKey.tap()
+        phoneTextField.typeText("+13333333333")
+        app.navigationBars["Add Guest"].buttons["Save"].tap()
+        
+        XCTAssertTrue(app.tables.staticTexts["Rafael Amaro"].exists, "Rafael Amaro guest not exist")
+        
+        app.tables.staticTexts["Rafael Amaro"].tap()
+        app.buttons["Remove selected"].tap()
+
+        XCTAssertTrue(!app.tables.staticTexts["Rafael Amaro"].exists, "Rafael Amaro guest exist")
+        
     }
     
 }

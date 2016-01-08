@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RAAddGuestViewController: UIViewController, RAAddGuestViewProtocol {
+class RAAddGuestViewController: UIViewController, RAAddGuestViewProtocol, UITextFieldDelegate {
 
     var presenter: RAAddGuestPresenterProtocol?
     
@@ -20,15 +20,33 @@ class RAAddGuestViewController: UIViewController, RAAddGuestViewProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Save", style: .Plain, target: self, action: "saveClick:")
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Save, target: self, action: "saveClick:")
         self.activityIndicator!.center = self.view.center
     }
 
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.textFieldName.becomeFirstResponder()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if textField.placeholder!.lowercaseString == "name" {
+            self.textFieldEmail.becomeFirstResponder()
+        } else if textField.placeholder!.lowercaseString == "email" {
+            self.textFieldPhone.becomeFirstResponder()
+        } else {
+            saveClick(self)
+        }
+        
+        return true;
+    }
+
     @IBAction func saveClick(sender: AnyObject) {
         let guest: RAGuestModel = RAGuestModel()
         if let _ = self.textFieldName.text {
