@@ -1,8 +1,6 @@
 # WhoIsTheGuest
 Who is The Guest is an example of how you can apply an clean architecture to iOS with VIPER, Realm and Carthage together
 
--
-
 # Clean Architecture
 Clean architecture has the objective, which is the separation of concerns. It achieve this separation by dividing the software into layers. Each has at least one layer for business rules, and another for interfaces.
 
@@ -16,8 +14,6 @@ This architecture produce a system that are:
 
 p.s. This idea about Clean Architecture is from **"Uncle Bob" - Robet C. Martin**
 
--
-
 # VIPER
 VIPER is an approach to iOS application architecture, which stands for:
 
@@ -27,12 +23,8 @@ VIPER is an approach to iOS application architecture, which stands for:
 - Interactor (Domain or Use cases)
 - Entity (Data)
 
--
-
 # Realm
 Realm is a mobile database. It is a replacement for SqlLite & CoreData.
-
--
 
 # Carthage
 Carthage is intended to be the simplest way to add frameworks to your Cocoa application.
